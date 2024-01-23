@@ -13,13 +13,10 @@ palabra_buscada = "texto"
 
 # se hace el prin y se cierra la funcion con los parametros que queremos que queremos ver 
 # en este caso la cantidad de veces que se repite la palabra texto en una frase
-# print(f"La palabra {palabra_buscada, "aparece", contar_palabra(texto, palabra_buscada)} veces.")
+print(f"La palabra {palabra_buscada, "aparece", contar_palabra(texto, palabra_buscada)} veces.")
+
+# se añadieron los dos puntos al iniciar la funcion contar palabra luego de cerrar los parentesis
+# en el prin se añadieron las comillas y las comas que hacian falta para que la palabra "aparece"
+# fuera considerada un texto y no una variable sin llamar y se borro una comilla q sobraba
 
 
-def contar_palabra(texto, palabra):
-    return texto.lower().split().count(palabra.lower())
-
-texto = "Este es un ejemplo de texto. Este texto tiene palabras repetidas."
-palabra_buscada = "texto"
-
-print(f"La palabra {palabra_buscada ," aparece", contar_palabra(texto, palabra_buscada)} veces.")
