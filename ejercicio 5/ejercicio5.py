@@ -21,3 +21,8 @@ primos = [num for num in range(2, limite + 1) if es_primo(num)]
 
 # este print nos imprimira la lista de numeros primos 
 print("Números primos:", primos)
+
+# en la linea 2 faltaban los puntos al final de la linea de codigo de la funcion 
+#  en la linea 5 faltaban los dos puntos al final del condicional 
+# en la linea 11 faltaban los dos puntos al final del codigo  del bucle 
+# los return de las lineas 13 y 14 estaban mal escritos  
